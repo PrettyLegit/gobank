@@ -1,6 +1,6 @@
 package main
 
 func main() {
-	println("Hello, World!")
+	server := newAPIServer(":8080")
+	server.Run()
 }
-
